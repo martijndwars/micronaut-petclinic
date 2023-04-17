@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul.menu {
+  display: flex;
+  padding: 0;
+}
+
+ul.menu li {
+  margin: 0px 10px;
+  list-style: none;
+}
+
+ul.menu li:first-child {
+  margin-left: 0;
+}
